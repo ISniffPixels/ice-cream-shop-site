@@ -1,6 +1,7 @@
 :root {
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
 }
 
 *,
@@ -22,15 +23,21 @@ header {
     box-shadow: inset 0 -12px 12px -12px black;
 }
 
-#content {
+body {
     background-color: rgb(255, 202, 103);
+    width: 100%;
+    height: 100vh;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     gap: 100px;
     background-color: rgb(255, 192, 203);
     box-shadow: inset 0 12px 12px -12px black;
@@ -280,6 +287,42 @@ button {
     height: auto;
 }
 
+.pimpin_purple_img {
+    background: transparent;
+    border: none;
+    background-image: url('./images/pimpin_purple.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.stinky_swirl_img {
+    background: transparent;
+    border: none;
+    background-image: url('./images/stinky_swirl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.ragin_rainbow_img {
+    background: transparent;
+    border: none;
+    background-image: url('./images/ragin_rainbow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+}
+
 .menu_box_1::before {
     position: absolute;
     top: 0;
@@ -292,8 +335,6 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-    padding: 5px;
 }
 
 .menu_box_2::before {
@@ -308,8 +349,6 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-    padding: 5px;
 }
 
 .menu_box_3::before {
@@ -324,8 +363,6 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-    padding: 5px;
 }
 
 .menu_box_4::before {
@@ -340,8 +377,6 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-    padding: 5px;
 }
 
 .menu_box_5::before {
@@ -356,8 +391,6 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-    padding: 5px;
 }
 
 .menu_box_6::before {
@@ -372,8 +405,48 @@ button {
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
 
-    padding: 5px;
+.menu_box_7::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+    content: 'Pimpin\' Purple!';
+    background-color: rgba(128, 0, 128, 0.510);
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu_box_8::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+    content: 'Stinky Swirl!';
+    background-color: rgba(165, 42, 42, 0.700);
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu_box_9::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+    content: 'Ragin\' Rainbow!';
+    background-image: linear-gradient( 45deg, rgba(223,0,0,0.710) 2.7%, rgba(214,91,0,0.710) 15.1%, rgba(233,245,0,0.710) 29.5%, rgba(23,255,17,0.710) 45.8%, rgba(29,255,255,0.710) 61.5%, rgba(5,17,255,0.710) 76.4%, rgba(202,0,253,0.710) 92.4% );
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .menu_boxes {
@@ -415,7 +488,27 @@ button {
 
 .about_container_style {
     background-color: antiquewhite;
-    width: 900px;
-    height: 900px;
-    margin: auto;
+
+    max-width: 60%;
+    height: 100%;
+
+    padding: 50px;
+    margin: 50px auto;
+}
+
+.about_container_style p {
+    font-size: 1.3rem;
+    max-width: 65rem;
+}
+
+.about_store_sign_style {
+    background-image: url('./images/playdough_store_sign.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
 }
