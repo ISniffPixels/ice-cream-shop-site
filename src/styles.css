@@ -470,6 +470,15 @@ button {
     margin: 20px 0;
 }
 
+.menu_page_title {
+    font-size: 72px;
+    background-image: linear-gradient( 45deg, rgba(223,0,0,0.710) 2.7%, rgba(214,91,0,0.710) 15.1%, rgba(233,245,0,0.710) 29.5%, rgba(23,255,17,0.710) 45.8%, rgba(29,255,255,0.710) 61.5%, rgba(5,17,255,0.710) 76.4%, rgba(202,0,253,0.710) 92.4% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: transparent;
+  }
+
 .pd_logo {
     order: -1;
     max-width: 200px;
@@ -488,6 +497,8 @@ button {
 
 .about_container_style {
     background-color: antiquewhite;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.510);
+    border-radius: 10px;
 
     max-width: 60%;
     height: 100%;
@@ -504,7 +515,19 @@ button {
 .about_store_sign_style {
     background-image: url('./images/playdough_store_sign.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.about_store_location_style {
+    background-image: url('./images/store_location_img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
 
     display: block;

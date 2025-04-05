@@ -15,9 +15,10 @@ export function menuPage() {
     const menu_heading = document.createElement('h1');
     menu_heading.textContent = "Flavor Station"
     menu_heading.style.textAlign = 'center';
-    menu_heading.style.fontSize = '3.5rem';
+    menu_heading.style.fontSize = '5.5rem';
     menu_heading.style.paddingTop = '30px';
     menu_heading.style.fontFamily = "Skrapbook";
+    menu_heading.classList.add('menu_page_title');
     
     content.innerHTML = "";
     content_container.classList.add('menu_selection_container');
