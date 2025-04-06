@@ -39,7 +39,7 @@ export function aboutPage() {
     biz_info_li_3.textContent = "Santa Cruz, CA 95060";
     biz_info_li_4.textContent = "(831) 555 - 3789";
 
-    p.textContent = "Remember when you were a kid, and you definitely weren't supposed to eat Play-Doh, but you maybe did anyway? Well, good news! We've made your childhood dreams (and questionable snack choices) a reality! At Playdough Ice Cream, we scoop up the most colorful, fun, and deliciously sweet treats, with swirls of nostalgia in every bite. Our signature Playdough Ice Cream isn't just a name, it's an experience. Bright, bold, and packed with flavors that make your taste buds do a happy dance, it's like recess for your mouth! And don't worry, it's 100% edible this time. Come for the ice cream, stay for the fun, and relive your best childhood memories without anyone telling you not to eat the dough.";
+    p.textContent = "Remember when you were a kid, and you definitely weren't supposed to eat Play-Doh, but you maybe did anyway? Well, good news! We've made your childhood dreams (and questionable snack choices) a reality! At Play Dough Ice Cream, we scoop up the most colorful, fun, and deliciously sweet treats, with swirls of nostalgia in every bite. Our signature Play Dough Ice Cream isn't just a name, it's an experience. Bright, bold, and packed with flavors that make your taste buds do a happy dance, it's like recess for your mouth! And don't worry, it's 100% edible this time. Come for the ice cream, stay for the fun, and relive your best childhood memories without anyone telling you not to eat the dough.";
 
     about_store_sign.width = '900';
     about_store_sign.height = "550";
