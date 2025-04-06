@@ -44,10 +44,12 @@ export function aboutPage() {
     about_store_sign.width = '900';
     about_store_sign.height = "550";
     about_store_sign.classList.add('about_store_sign_style');
+    about_store_sign.loading = 'lazy';
 
     about_store_location.width = '900';
     about_store_location.height = "550";
     about_store_location.classList.add('about_store_location_style');
+    about_store_location.loading = 'lazy';
 
     p_2.textContent= "DISCLAIMER: This website is fake as fuck. Don't actually eat anything that's produced by Playdough. You will probably die...";
 
