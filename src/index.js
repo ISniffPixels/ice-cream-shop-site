@@ -1,7 +1,7 @@
 import './styles.css';
 
 // HOMEPAGE ASSETS
-import playdough_logo from './images/playdough_logo.png';
+import playdough_logo from './images/playdough_logo.avif';
 import home_btn from './images/home_btn_img.png';
 import menu_btn from './images/menu_btn_img.png';
 import about_btn from './images/about_btn_img.png';

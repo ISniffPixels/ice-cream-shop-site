@@ -1,5 +1,5 @@
-const playdough_logo = './images/playdough_logo.png';
-const playdough_ice_cream = './images/playdough_ice_cream_bg.png';
+const playdough_logo = './images/playdough_logo.avif';
+const playdough_ice_cream = './images/playdough_ice_cream_bg.avif';
 const home_btn = './images/home_btn_img.png'; 
 const menu_btn = './images/menu_btn_img.png'; 
 const about_btn = './images/about_btn_img.png';
