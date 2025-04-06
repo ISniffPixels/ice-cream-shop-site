@@ -14,9 +14,11 @@ export {
 
 export function homePage() {
     const content_container = document.createElement('main');
+    const content_section = document.createElement('section');
     const content = document.querySelector('#content');
     
     content.innerHTML = "";
     content_container.classList.add('pd_bg');
-    content.appendChild(content_container);
+    content_section.classList.add('promo_bg');
+    content.append(content_container, content_section);
 }
