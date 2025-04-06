@@ -13,9 +13,9 @@ export {
 }
 
 export function homePage() {
+    const content = document.querySelector('#content');
     const content_container = document.createElement('main');
     const content_section = document.createElement('section');
-    const content = document.querySelector('#content');
     
     content.innerHTML = "";
     content_container.classList.add('pd_bg');
