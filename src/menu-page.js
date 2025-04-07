@@ -13,7 +13,7 @@ export function menuPage() {
     const menu_box_9 = document.createElement('div');
 
     const menu_heading = document.createElement('h1');
-    menu_heading.textContent = "Play Dough Flavor Station!"
+    menu_heading.textContent = "Play Dough Flavor Station"
     menu_heading.style.textAlign = 'center';
     menu_heading.style.fontSize = '5.5rem';
     menu_heading.style.paddingTop = '30px';
