@@ -4,7 +4,7 @@
   "description": "A restaurant menu page",
   "main": "index.js",
   "scripts": {
-    "build": "git checkout gh-pages && git merge main --no-edit && webpack",
+    "build": "git checkout gh-pages && git merge main --no-edit && webpack --mode production",
     "live": "webpack-dev-server",
     "deploy": "git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git switch main"
   },
