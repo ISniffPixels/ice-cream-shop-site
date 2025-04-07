@@ -51,7 +51,7 @@ export function aboutPage() {
     about_store_location.classList.add('about_store_location_style');
     about_store_location.loading = 'lazy';
 
-    p_2.textContent= "DISCLAIMER: This website is fake as fuck. Don't actually eat anything that's produced by Play-Doh or Play Dough. You will probably die...";
+    p_2.innerHTML = "<span style = 'color: red'>DISCLAIMER:</span> This website is fake as fuck. Don't actually eat anything that's produced by Play-Doh or Play Dough. You will probably die...";
 
     biz_info.append(biz_info_li, biz_info_li_2, biz_info_li_3, biz_info_li_4);
 
