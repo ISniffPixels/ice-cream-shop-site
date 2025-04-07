@@ -6,6 +6,7 @@
   "scripts": {
     "live": "webpack-dev-server",
     "prodmode": "NODE_ENV=production webpack",
+    "devmode": "NODE_ENV=development webpack",
     "build": "git checkout gh-pages && git merge main --no-edit && webpack",
     "deploy": "git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git switch main"
   },
