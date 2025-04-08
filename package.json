@@ -4,10 +4,10 @@
   "description": "A restaurant menu page",
   "main": "index.js",
   "scripts": {
-    "live": "webpack-dev-server",
+    "live": "webpack-dev-server && npm run devmode",
     "prodmode": "NODE_ENV=production webpack",
     "devmode": "NODE_ENV=development webpack",
-    "build": "git checkout gh-pages && git merge main --no-edit && webpack",
+    "build": "git checkout gh-pages && git merge main --no-edit && npm run prodmode && webpack",
     "deploy": "git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git switch main"
   },
   "author": "Hugo Angel",
